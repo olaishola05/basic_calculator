@@ -20,8 +20,6 @@ print('6. "% "for modulus')
 try:
     def calculate():
         time.sleep(5)
-        # options = ['1', '2', '3', '4', '5', '6']
-
 
     while True:
         time.sleep(5)
@@ -70,6 +68,3 @@ except ValueError as err:
 except KeyboardInterrupt as interrupt:
     interrupt = "User interrupt by pressing CTL + C"
     print(interrupt)
-
-
-
